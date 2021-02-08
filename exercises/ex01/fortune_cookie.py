@@ -20,7 +20,7 @@ x: int = randint(1,4)
 
 a: str = "You will have a good day"
 b: str = "UNC will beat Duke forever!"
-c: str = "You will crush the sould of those that dare defy you."
+c: str = "You will crush the souls of those that dare defy you."
 d: str = "You will meet someone important today!"
 
 if x == 1:
