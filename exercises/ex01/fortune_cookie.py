@@ -16,13 +16,12 @@ from random import randint
 
 print("Your fortune cookie says...")
 
-x: int = randint(1,4)
-
 a: str = "You will have a good day"
 b: str = "UNC will beat Duke forever!"
 c: str = "You will crush the souls of those that dare defy you."
 d: str = "You will meet someone important today!"
 
+x: int = randint(1, 4)
 if x == 1:
     print(a)
 else:
@@ -31,9 +30,8 @@ else:
     else:
         if x == 3:
             print(c)
-        else:
-            if x == 4: 
-                print(d)
+        else: 
+            print(d)
 
 
 print("Now go spread positive vibes!")
