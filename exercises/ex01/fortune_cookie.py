@@ -34,4 +34,4 @@ else:
             print(d)
 
 
-print("Now go spread positive vibes!")
+print("Now, go spread positive vibes!")
