@@ -19,7 +19,10 @@ c: str = "You will crush the souls of those that dare defy you."
 d: str = "You will meet someone important today!"
 
 # TODO 1: Define your fortune_cookie function here.
+
+
 def fortune_cookie() -> str:
+    """Fortune Cookie random return."""
     x: int = randint(1, 4)
     if x == 1:
         return(a)
@@ -31,6 +34,7 @@ def fortune_cookie() -> str:
                 return(c)
             else: 
                 return(d)
+
 
 # Python Idiom for "starting" the program when run as a module.
 # The special dunder variable __name__ will be "__main__" when run as module. 

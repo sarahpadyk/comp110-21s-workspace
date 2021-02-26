@@ -10,10 +10,9 @@ def main() -> None:
     print(tar_heels(choice))
 
 
-
 # TODO 1: Define the tar_heels function, and its logic, here.
 def tar_heels(x: int) -> str:
-    """Logical puzzle"""
+    """Logical puzzle."""
     if int(x) % 2 == 0 and int(x) % 7 == 0:
         return("TAR HEELS")
     else:
@@ -24,15 +23,6 @@ def tar_heels(x: int) -> str:
                 return("HEELS")
             else: 
                 return("CAROLINA")
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == "__main__":
